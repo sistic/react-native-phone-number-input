@@ -172,7 +172,7 @@ export default class PhoneInput extends Component<
     | "LI"
     | "LT"
     | "LU"
-    | "MO"
+    // | "MO"
     | "MK"
     | "MG"
     | "MW"
@@ -261,7 +261,7 @@ export default class PhoneInput extends Component<
     | "CH"
     | "SY"
     | "ST"
-    | "TW"
+    // | "TW"
     | "TJ"
     | "TZ"
     | "TH"
@@ -294,7 +294,7 @@ export default class PhoneInput extends Component<
     | "ZM"
     | "ZW"
     | "KI"
-    | "HK"
+    // | "HK"
     | "AX";
   getCallingCode: () => string | undefined;
   isValidNumber: (number: string) => boolean;
